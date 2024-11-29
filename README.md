@@ -22,7 +22,7 @@ This project is designed to connect an ESP32 to an OBD-II vehicle interface usin
 ## Software Requirements
 
 - Arduino IDE
-- `BluetoothSerial` library
+- `BluetoothSerial` library (Must be editted to make setPin() function operational)
 - `ELMduino` library
 - `U8g2` library for OLED displays
 - `Wire` library for I2C communication
