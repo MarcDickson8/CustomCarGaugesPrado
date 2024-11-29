@@ -35,6 +35,8 @@ This project is designed to connect an ESP32 to an OBD-II vehicle interface usin
 | TCA9548A SDA      | 21         |
 | Button            | 32         |
 
+TCA9548A Channels 1-6 for each display
+
 ## Functions Overview
 
 - **`setup()`**: Initializes Bluetooth, I2C communication, and connects to the ELM327 module.
